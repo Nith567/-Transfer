@@ -20,12 +20,13 @@ app.frame('/', (c) => {
           display: 'flex',
           justifyItems: 'center',
           alignItems: 'center',
+          textAlign: 'center',
           width: '100%',
           height: '100%',
-          fontSize: 60,
+          fontSize: 90,
         }}
       >
-       Transfer(USD)
+       Transfer(USDC)
       </div>
     ),
     intents: [
@@ -36,7 +37,7 @@ app.frame('/', (c) => {
 })
 
 app.frame('/finish', (c) => {
-  const { transactionId} = c
+  const { transactionId,verified} = c
   //usdc amount by logs
   // const usdAmount = parseFloat(buttonValue as string);
   // const goats = Math.floor(usdAmount / 50); 
