@@ -1,6 +1,7 @@
 import styles from './page.module.css'
-
+import { ethers } from 'ethers'
 export default function Home() {
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -23,6 +24,8 @@ export default function Home() {
         <div>
           <h1>USDC TRANSFER</h1>
         </div>
+
+
       </div>
 
     </main>
