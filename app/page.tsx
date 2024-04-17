@@ -17,17 +17,12 @@ export default function Home() {
           for frame endpoint
           </p>
         </div>
-        <div></div>
       </div>
-
       <div className={styles.center}>
         <div>
-          <h1>USDC TRANSFER</h1>
+          <h1>USDC GOAT Contributions</h1>
         </div>
-
-
       </div>
-
     </main>
   )
 }
