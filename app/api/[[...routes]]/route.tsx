@@ -41,8 +41,11 @@ const app = new Frog({
 app.frame('/', (c) => {
   return c.res({
     action: '/finish',
-    image: `${process.env.NEXT_PUBLIC_SITE_URL}/goat.jpg`,
+    image: `${process.env.NEXT_PUBLIC_SITE_URL}/goat.jpeg`,
     imageAspectRatio:"1.91:1",
+    headers:{
+      'Content-Type': 'image/jpeg'
+    },
     intents: [
       <TextInput placeholder="($USDC | $DEGEN)" />,
       <Button.Transaction  target={`/send-usdc`}>Send USDC 🐐</Button.Transaction>,
