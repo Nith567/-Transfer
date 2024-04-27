@@ -3,8 +3,7 @@ npm install
 npm run dev
 ```
 
-Head to http://localhost:3000/api
-
+Head to http://localhost:3000/api test in frog dev environment
 
 # GOAT 🐐 Frame
 
